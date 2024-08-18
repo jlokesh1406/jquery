@@ -1,0 +1,38 @@
+body
+{
+    background: linear-gradient(blue,white);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.addcss_to_jq_fs
+{
+    font-size: 50px;
+    color: rgb(167, 240, 8);
+    font-family: cursive;
+}
+.addcss_to_jq_padding
+{
+    padding: 20px;
+}
+
+
+.black
+{
+    background-color: rgb(250, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+
+/* 8.Website Animations with jQuery */
+.WA1 
+{
+    width: 200px;
+    height: 100px;
+    background-color: tomato;
+    margin: 10px;
+    border: 2px solid black;
+}
+#Wa_btn1,#Wa_btn2
+{
+    position: absolute;
+}

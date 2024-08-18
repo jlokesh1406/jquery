@@ -1,0 +1,25 @@
+.highlight
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.parent_container
+{
+    padding: 10px;
+}
+
+#fb
+{
+    border: none;
+    outline: none;
+}
+#fb:focus
+{
+    border: none;
+    outline: none;
+}

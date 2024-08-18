@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery2</title>
+    <link rel="stylesheet" href="../basics/css2.css">
+</head>
+<body>
+    
+    <!-- jquery is small js libary use describe the Document Traversal,Manipulation,Event Handling,Animation -->
+    <!-- john Resig created jq on 2006 now version as 2013(jQuery 3.0) -->
+    <!-- js is fast jq is slow -->
+
+    <u>1.Set Up on Local jQuery</u>
+    <div>
+        <h1 id="SETUP">Hey...</h1>
+    </div>
+
+    <hr>
+     
+    <u>2.Basic Syntax of jQuery</u>
+    <hr>
+
+    <u>3.Selectors</u>
+    <h4>1.id selectors</h>
+    <div id="S1">Home1</div>
+
+    <h4>2.class selectors</h4>
+    <div class="S2">Home2</div>
+
+    <h4>3.Element Selector</h4>
+    <p>Home3</p>
+
+    <h4>4.Attribute Selector</h4>
+    <div>
+        <input type="number">
+        <input type="email">
+        <input>
+    </div>
+    
+    <h4>5.value Selector</h4>
+    <div>
+        <input type="number">
+        <input type="email">
+        <input>
+        <input id="ValueS">
+    </div>
+
+    <h4>6.partial selector</h4>
+    <div>
+        <a href="http://example.com">Link one</a> <br>
+        <a href="http://com.example">Link two</a> <br>
+        <a href="http://google.com">Link thre</a> <br>
+    </div>
+
+    <h4>7.Descendant Selector</h4>
+    <div class="Descendant_container">
+        <p>Hii</p>
+    </div>
+
+    <h4>8.Child Selector</h4>
+    <div class="Child_Selector_container">
+        <h3>hii 1</h3>
+        <div>
+            <h3>hii 2</h3>
+        </div>
+    </div>
+
+    <hr>
+    <hr>
+    <h1>8.DOM</h1>
+    <div>
+        <!--1.html()-->
+        <h3>1.html()</h3>
+        <h3 id="content1">--OLD HTML1--</h3>
+
+        <!--2.text()-->
+        <h3>2.text()</h3>
+        <h3 id="content2">--OLD HTML2--</h3>
+
+        <!--3.attr()-->
+        <h3>3.attr()</h3>
+        <img id="content3" src="LOKESH.png" alt="3.attr">
+
+        <!--4.val()-->
+        <h3>4.val()</h3>
+        <input id="content4" type="text" placeholder="old content">
+
+        <!--5. append & prepend -->
+        <h3>5. append & prepend</h3>
+        <div class="ap">
+            <h4>1</h1>
+        </div>
+
+        <!--6.remove-->
+        <h3>6.remove</h3>
+        <div id="remove_this_content">remove_this_content</div>
+
+        <!--7.addClass-->
+        <h3>7.addClass</h3>
+        <div id="addClass_7">addClass</div>
+
+        <!--8.removeClass-->
+        <h3>8.removeClass</h3>
+        <div class="highlight" id="removeClass_8">removeClass_8</div>
+
+        <!--9.toggleClass-->
+        <h3>9.toggleClass</h3>
+        <div class="highlight" id="toggleClass_9">removeClass_9</div>
+        <div  id="toggleClass_10">removeClass_10</div>
+
+        <!--10.parent-->
+        <h3>10.parent</h3>
+        <div class="parent_container">
+            <button class="btn1">Click</button>
+        </div>
+
+        <!--11.siblings-->
+        <h3>11.siblings</h3>
+        <div class="siblings_container">
+            <div class="item">Item1</div>
+            <div class="item">Item2</div>
+            <div class="item special">Item3</div>
+            <div class="item">Item4</div>
+        </div>
+        <hr><hr><hr>
+
+
+        <h3>12.Event Handling</h3>
+
+        <!--12.onclick-->
+        <h5>12.onclick</h5>
+        <button class="mybtn">Click</button>
+        <p class="mybtn_result"></p>
+        <br><br><br>
+
+        <!--13.hover-->
+        <h5>13.hover</h5>
+        <div id="box1" style="width: 100px; height: 100px; background-color: yellow;"></div>
+        <br>
+
+        <!--14.focus()-->
+        <h5>14.focus()</h5>
+        <input type="text" id="fb" placeholder="enter name">
+        
+        <!--15.on()-->
+        <h5>15.on()</h5>
+        <div class="on_parent">
+            <button class="on_child">CLICK</button>
+        </div>
+
+    </div>
+
+
+
+    <script src="../Using_Local_jQuery_File/jquery-3.7.1.js"></script>
+    <script src="/basics/js2.js"></script>
+</body>
+</html>
